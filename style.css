@@ -8,8 +8,8 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background-color: #ECFDF5;
-    font-family: 'Montserrat', sans-serif;
+    background-color: #e3f1ff;
+    font-family: "Arial", Helvetica, sans-serif;
 }
 
 .navigation ul {
@@ -25,8 +25,9 @@ body {
 .navigation {
     padding-top: 2rem;
     color: white;
-    background-color: #10B981;
+    background-color: #1b75be;
     padding: 1rem;
+    font-weight: bold;
     border-bottom-left-radius: 2rem;
 }
 
@@ -42,7 +43,7 @@ body {
 
 .navigation .nav-brand {
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 
 .navigation .link-active {
@@ -50,37 +51,68 @@ body {
 }
 
 .image-container {
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 .image-container .image {
-    max-width: 350px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    max-width: 200px;
     display: block;
     margin: auto;
+    border: 5px solid #1b75be;
+    border-radius: 20px;
 }
 
 .heading {
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 0 rem;
+    font-size: 2rem;
 }
 
 .heading h3 {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .heading p {
     font-size: 1rem;
 }
 
+.about-me-title:after {
+    left: .5em;
+    margin-right: -50%;
+}
+
+.about-me-title:before {
+    right: .5em;
+    margin-left: -50%;
+}
+
+.about-me-title:after,
+.about-me-title:before {
+    background-color: #667eea;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    width: 10%;
+    position: relative;
+    vertical-align: middle;
+}
+
 .two {
     padding-top: 1rem;
-    background-color: #A7F3D0;
+    background-color: #89bff8;
+    color: white;
     text-align: center;
     padding-bottom: 1.5rem;
 }
 
+.skills {
+    color: black;
+}
+
 .two h4 {
-    color: #064E3B;
+    color: black;
     padding: 0 0.5rem;
 }
 
@@ -112,7 +144,7 @@ body {
 
 .projects button,
 .blogs button {
-    background: #059669;
+    background: #0051a2;
     color: whitesmoke;
     font-size: 1rem;
     border: 0;
@@ -125,20 +157,19 @@ body {
 
 .blogs {
     padding-top: 1rem;
-    background-color: #A7F3D0;
+    background-color: #89bff8;
     text-align: center;
     padding-bottom: 1.5rem;
 }
 
 .blogs p {
-    color: #064E3B;
+    color: black;
     font-style: italic;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 footer {
     padding-top: 1rem;
-    background-color: #EEF2FF;
     text-align: center;
     padding-bottom: 1rem;
 }
